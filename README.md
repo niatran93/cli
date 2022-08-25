@@ -1,5 +1,8 @@
 # Command-Line Interface
 
+- Switch TTY
+  - `Ctrl + Alt + F1`
+  - `chvt 1`
 - Change hostname
   - `sudo hostnamectl set-hostname <new-hostname>`
 - Add Sudoer
