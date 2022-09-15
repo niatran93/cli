@@ -9,6 +9,14 @@
   - `adduser <username>`
   - `usermod -aG sudo <username>`
 
+## Format USB
+- `df`
+- `sudo umount /dev/sdb1`
+  - `sudo mkfs.vfat /dev/sdb1`
+  - `sudo mkfs.ntfs /dev/sdb1`
+  - `sudo mkfs.exfat /dev/sdb1`
+- `sudo fsck /dev/sdb1` Verify USB Drive Formatting
+
 ## Tools
 
 - cheat.sh
