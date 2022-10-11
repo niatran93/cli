@@ -31,5 +31,6 @@
 - `duf`
 - `inxi` - a full featured system information script
   - `inxi -b`
+  - `inxi -Fz`
 - `gpustat`
   - `gpustat -cpi`
