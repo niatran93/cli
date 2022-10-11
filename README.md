@@ -30,3 +30,6 @@
 ## System monitor
 - `duf`
 - `inxi` - a full featured system information script
+  - `inxi -b`
+- `gpustat`
+  - `gpustat -cpi`
