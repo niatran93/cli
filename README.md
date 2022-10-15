@@ -1,5 +1,9 @@
 # Command-Line Interface
 
+## NEWEST
+
+- Wipe Disk
+  - `sudo dd if=/dev/zero of=/dev/sda` or `sudo shred /dev/sda`
 - Switch TTY
   - `Ctrl + Alt + F1`
   - `chvt 1`
