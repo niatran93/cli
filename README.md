@@ -2,6 +2,8 @@
 
 ## NEWEST
 
+- Use localtime instead of UTC
+  - `timedatectl set-local-rtc 1`
 - Wipe Disk
   - `sudo wipefs -a /dev/sda`
   - `sudo dd if=/dev/zero of=/dev/sda` or `sudo shred /dev/sda`
