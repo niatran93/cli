@@ -3,6 +3,7 @@
 ## NEWEST
 
 - Wipe Disk
+  - `sudo wipefs -a /dev/sda`
   - `sudo dd if=/dev/zero of=/dev/sda` or `sudo shred /dev/sda`
 - Switch TTY
   - `Ctrl + Alt + F1`
