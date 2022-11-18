@@ -37,7 +37,7 @@
 ## System monitor
 - `duf`
 - `inxi` - a full featured system information script
-  - `inxi -b`
-  - `inxi -Fz`
+  - `inxi -b` --basic = Show basic output, short form
+  - `inxi -Fz`= Full info
 - `gpustat`
   - `gpustat -cpi`
